@@ -1,23 +1,48 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Dependency directories
+node_modules/
+
+# dotenv environment variables file
+.env
+.env.test
+
+extractedTranslations/
+
+# distribution files
+dist/
+
+# IDE settings
+.vscode
+
+# IDE intellij
+.idea
+
+# MacOS specific (Finder metadata)
+.DS_Store
+
+# Cypress
+cypress/screenshots
+
+# Allow for local env overrides
+cypress.env.json
+
+# Istanbul code coverage report output (in relation to Cypress)
+.nyc_output
+/src/open-api/
