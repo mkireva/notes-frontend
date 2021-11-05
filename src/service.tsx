@@ -1,11 +1,10 @@
 import React from "react";
 import { createContext } from "react";
-import { ApiService } from "./open-api/service/api-service";
 
 const SERVICES = {
-  api: new ApiService(),
+  api: {},
 };
-
+ 
 export const Services = createContext(SERVICES);
 
 export const ServiceProvider = (props: any) => (

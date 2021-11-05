@@ -85,24 +85,7 @@ export const Header = () => {
   const handleDrawerClose = () => {
     setOpen(false);
   };
-
-  // let logo = (
-  //   <img
-  //     className={classes.logoMobile}
-  //     src={mobileLogo}
-  //     alt="climate partner logo"
-  //   />
-  // );
-  // if (useMediaQuery(theme.breakpoints.up("sm"))) {
-  //   logo = (
-  //     <img
-  //       className={classes.logoDesktop}
-  //       src={desktopLogo}
-  //       alt="climate partner logo"
-  //     />
-  //   );
-  // }
-
+  
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
@@ -122,11 +105,6 @@ export const Header = () => {
           </IconButton>
         </Toolbar>
       </AppBar>
-      <Main open={open}>
-        <DrawerHeader />
-        <Typography paragraph>Welcome</Typography>
-        <Typography paragraph>Beinsa Notes</Typography>
-      </Main>
       <Drawer
         sx={{
           width: drawerWidth,
