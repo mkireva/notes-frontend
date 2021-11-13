@@ -34,7 +34,7 @@ jobs:
           name: artifact
           path: build
       - name: rename folder
-        run: mv build docs
+        run: mv build docs && cp docs/index.html docs/404.html
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
