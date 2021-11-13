@@ -28,6 +28,12 @@ export const Footer = () => {
         >
           EN
         </Button>
+        <Button
+          className={classes.footerButton}
+          onClick={() => changeLanguage("en")}
+        >
+          BG
+        </Button>
       </Toolbar>
     </footer>
   );
