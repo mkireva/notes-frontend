@@ -85,7 +85,7 @@ export const Header = () => {
   const handleDrawerClose = () => {
     setOpen(false);
   };
-  
+
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
@@ -111,6 +111,7 @@ export const Header = () => {
           flexShrink: 0,
           "& .MuiDrawer-paper": {
             width: drawerWidth,
+            paddingLeft: 2,
           },
         }}
         variant="persistent"
