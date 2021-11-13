@@ -1,3 +1,7 @@
+[![Node CI](https://github.com/mkireva/notes-frontend/actions/workflows/ci.yaml/badge.svg?branch=master)](https://github.com/mkireva/notes-frontend/actions/workflows/ci.yaml)
+
+<a href="https://mkireva.github.io/notes-frontend/" target="_blank">DEMO</a>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
