@@ -1,11 +1,14 @@
 import React from "react";
 import {Layout} from "../../components/layout/Layout";
-import {Trans} from "react-i18next";
+import {getNSTrans} from "../../functions/getNsTrans";
 
-const ProductPage = () => (
+const Trans = getNSTrans('translation')
+
+export const NotePage = () => (
   <Layout>
       <Trans tOptions={{page: 'NotePage'}}>{'Welcome to {{page}}'}</Trans>
   </Layout>
 );
 
-export default ProductPage;
+//lazy import need default export
+export default NotePage
