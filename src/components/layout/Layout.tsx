@@ -6,7 +6,7 @@ import {makeStyles} from '@mui/styles';
 import {Theme} from "@mui/material"
 
 const useStyle = makeStyles(({}: Theme) => ({
-    root: {height: '100vh', display: "flex", flexDirection: 'column'},
+    root: {height: '100%', display: "flex", flexDirection: 'column'},
     container: {
         marginTop: 65, flex: 1, paddingTop: 20, paddingBottom: 20, paddingLeft: 8, paddingRight: 8
     }
