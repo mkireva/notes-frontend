@@ -1,12 +1,13 @@
 import { ThemeOptions } from "@mui/material/styles/createTheme"
 import {Theme} from "@emotion/react"
 import {Interpolation} from "@emotion/serialize";
+import {ColorPalette} from "./ColorPalette";
 
 
 export const themeOptions: ThemeOptions = {
   palette: {
-    primary: { main: "#003C91" },
-    background: { default: "#EDF2FA" },
+    primary: { main: ColorPalette.PRIMARY },
+    background: { default: ColorPalette.BACKGROUND },
   },
   components: {
     MuiButton: {
@@ -18,5 +19,5 @@ export const themeOptions: ThemeOptions = {
 }
 
 export const globalStyles: Interpolation<Theme> = {
-  a: { color: "#001862", textDecoration: "none" },
+  a: { color: ColorPalette.PRIMARY, textDecoration: "none" },
 }
