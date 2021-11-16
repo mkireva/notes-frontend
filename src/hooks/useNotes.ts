@@ -9,11 +9,11 @@ export const useNotes = (parameter: IListNotesParameter) => {
   const services = useContext(Services);
 
   const loadNotes = async (): Promise<Array<INoteGridItem>> => {
-    const [productResponse, companies] = await Promise.all([
+    const [noteResponse] = await Promise.all([
       services.api.listNotes(parameter),
     ]);
 
-    return productResponse.map((p) => ({
+    return noteResponse.map((p) => ({
       id: p.id as number,
       name: p.name,
       author: p.author,
