@@ -11,6 +11,7 @@ import { Router } from "react-router-dom";
 import { createBrowserHistory } from "history";
 import { PageRouter } from "./pages/PageRouter";
 import { Loading } from "./components/Loading";
+import { StylesProvider } from "@mui/styles";
 
 initI18n(
   {
@@ -29,15 +30,17 @@ const App = () => {
   return (
     <I18nextProvider i18n={i18n}>
       <CssBaseline />
-      <StyledEngineProvider injectFirst>
-        <ThemeProvider>
-          <Suspense fallback={null}>
-            <Router history={history}>
-              <PageRouter />
-            </Router>
-          </Suspense>
-        </ThemeProvider>
-      </StyledEngineProvider>
+      <StylesProvider>
+        <StyledEngineProvider injectFirst>
+          <ThemeProvider>
+            <Suspense fallback={null}>
+              <Router history={history}>
+                <PageRouter />
+              </Router>
+            </Suspense>
+          </ThemeProvider>
+        </StyledEngineProvider>
+      </StylesProvider>
     </I18nextProvider>
   );
 };
