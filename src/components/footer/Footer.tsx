@@ -30,7 +30,7 @@ export const Footer = () => {
         </Button>
         <Button
           className={classes.footerButton}
-          onClick={() => changeLanguage("en")}
+          onClick={() => changeLanguage("bg")}
         >
           BG
         </Button>
