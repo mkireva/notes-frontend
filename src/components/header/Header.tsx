@@ -17,31 +17,11 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
-// import { useMediaQuery } from "@material-ui/core";
-// import { getHeaderClasses } from "./Header.jss";
-import desktopLogo from "assets/svg/music-desktop.svg";
-import mobileLogo from "assets/svg/music-mobile.svg";
+import { makeStyles } from '@mui/styles';
+import { Theme } from "@mui/material"
 
 const drawerWidth = 240;
 
-const Main = styled("main", { shouldForwardProp: (prop) => prop !== "open" })<{
-  open?: boolean;
-}>(({ theme, open }) => ({
-  flexGrow: 1,
-  padding: theme.spacing(3),
-  transition: theme.transitions.create("margin", {
-    easing: theme.transitions.easing.sharp,
-    duration: theme.transitions.duration.leavingScreen,
-  }),
-  marginRight: -drawerWidth,
-  ...(open && {
-    transition: theme.transitions.create("margin", {
-      easing: theme.transitions.easing.easeOut,
-      duration: theme.transitions.duration.enteringScreen,
-    }),
-    marginRight: 0,
-  }),
-}));
 
 interface AppBarProps extends MuiAppBarProps {
   open?: boolean;
@@ -76,7 +56,6 @@ const DrawerHeader = styled("div")(({ theme }) => ({
 export const Header = () => {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
-  // const classes = getHeaderClasses();
 
   const handleDrawerOpen = () => {
     setOpen(true);

@@ -1,14 +1,33 @@
-import Toolbar from "@material-ui/core/Toolbar";
 import React, {useCallback} from "react";
-import {Button} from "@material-ui/core";
 import {useTranslation} from "react-i18next";
-import {getFooterClasses} from "./Footer.jss";
 
+import {makeStyles} from '@mui/styles';
+import {Button, Theme} from "@mui/material"
+
+const useStyle = makeStyles(({palette}: Theme) => ({
+    root: {
+        marginTop: 80,
+        paddingLeft: 5, 
+        paddingRight: 5,
+        paddingTop: 2,
+        paddingBottom: 2,
+        backgroundColor: palette.primary.main,
+        color: "#fff",
+    },
+    copyRight: {
+        marginRight: 5,
+    },
+    button: {
+        marginLeft: 3,
+        marginRight: 3,
+        color: "#fff",
+    },
+}));
 export const Footer = () => {
-    const classes = getFooterClasses();
+    const classes = useStyle();
 
     const {i18n} = useTranslation();
-    
+
     const changeLanguage = useCallback((lng: string) => {
         if (i18n.language !== lng) {
             i18n.changeLanguage(lng);
@@ -17,27 +36,28 @@ export const Footer = () => {
 
     return (
         <footer className={classes.root}>
-            <Toolbar className={classes.footerText}>
-                Copyright &copy; 2022, Beinsa Notes
-                <Button
-                    className={classes.footerButton}
-                    onClick={() => changeLanguage("de")}
-                >
-                    DE
-                </Button>
-                <Button
-                    className={classes.footerButton}
-                    onClick={() => changeLanguage("en")}
-                >
-                    EN
-                </Button>
-                <Button
-                    className={classes.footerButton}
-                    onClick={() => changeLanguage("bg")}
-                >
-                    BG
-                </Button>
-            </Toolbar>
+            <span className={classes.copyRight}>Copyright &copy; 2022, Beinsa Notes</span>
+            <Button
+                variant={'text'}
+                className={classes.button}
+                onClick={() => changeLanguage("de")}
+            >
+                DE
+            </Button>
+            <Button
+                variant={'text'}
+                className={classes.button}
+                onClick={() => changeLanguage("en")}
+            >
+                EN
+            </Button>
+            <Button
+                variant={'text'}
+                className={classes.button}
+                onClick={() => changeLanguage("bg")}
+            >
+                BG
+            </Button>
         </footer>
     );
 };
