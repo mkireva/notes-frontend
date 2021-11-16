@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/notes-frontend/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/notes-frontend/static/js/main.c40b831c.chunk.js",
-    "main.js.map": "/notes-frontend/static/js/main.c40b831c.chunk.js.map",
-    "pages/notePage.js": "/notes-frontend/static/js/pages/notePage.982e97e2.chunk.js",
-    "pages/notePage.js.map": "/notes-frontend/static/js/pages/notePage.982e97e2.chunk.js.map",
-    "runtime-main.js": "/notes-frontend/static/js/runtime-main.6f19394a.js",
-    "runtime-main.js.map": "/notes-frontend/static/js/runtime-main.6f19394a.js.map",
-    "static/js/3.e12c0d12.chunk.js": "/notes-frontend/static/js/3.e12c0d12.chunk.js",
-    "static/js/3.e12c0d12.chunk.js.map": "/notes-frontend/static/js/3.e12c0d12.chunk.js.map",
-    "static/js/4.5f020c51.chunk.js": "/notes-frontend/static/js/4.5f020c51.chunk.js",
-    "static/js/4.5f020c51.chunk.js.map": "/notes-frontend/static/js/4.5f020c51.chunk.js.map",
-    "static/js/5.b2d64c17.chunk.js": "/notes-frontend/static/js/5.b2d64c17.chunk.js",
-    "static/js/5.b2d64c17.chunk.js.map": "/notes-frontend/static/js/5.b2d64c17.chunk.js.map",
+    "main.js": "/notes-frontend/static/js/main.10f8c8cf.chunk.js",
+    "main.js.map": "/notes-frontend/static/js/main.10f8c8cf.chunk.js.map",
+    "pages/notePage.js": "/notes-frontend/static/js/pages/notePage.5f35e842.chunk.js",
+    "pages/notePage.js.map": "/notes-frontend/static/js/pages/notePage.5f35e842.chunk.js.map",
+    "runtime-main.js": "/notes-frontend/static/js/runtime-main.858179c1.js",
+    "runtime-main.js.map": "/notes-frontend/static/js/runtime-main.858179c1.js.map",
+    "static/js/3.d5ba752b.chunk.js": "/notes-frontend/static/js/3.d5ba752b.chunk.js",
+    "static/js/3.d5ba752b.chunk.js.map": "/notes-frontend/static/js/3.d5ba752b.chunk.js.map",
+    "static/js/4.4b061276.chunk.js": "/notes-frontend/static/js/4.4b061276.chunk.js",
+    "static/js/4.4b061276.chunk.js.map": "/notes-frontend/static/js/4.4b061276.chunk.js.map",
+    "static/js/5.ab1e6c61.chunk.js": "/notes-frontend/static/js/5.ab1e6c61.chunk.js",
+    "static/js/5.ab1e6c61.chunk.js.map": "/notes-frontend/static/js/5.ab1e6c61.chunk.js.map",
     "index.html": "/notes-frontend/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/notes-frontend/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/3.e12c0d12.chunk.js.LICENSE.txt": "/notes-frontend/static/js/3.e12c0d12.chunk.js.LICENSE.txt",
-    "static/js/4.5f020c51.chunk.js.LICENSE.txt": "/notes-frontend/static/js/4.5f020c51.chunk.js.LICENSE.txt"
+    "static/js/3.d5ba752b.chunk.js.LICENSE.txt": "/notes-frontend/static/js/3.d5ba752b.chunk.js.LICENSE.txt",
+    "static/js/4.4b061276.chunk.js.LICENSE.txt": "/notes-frontend/static/js/4.4b061276.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6f19394a.js",
-    "static/js/4.5f020c51.chunk.js",
+    "static/js/runtime-main.858179c1.js",
+    "static/js/4.4b061276.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.c40b831c.chunk.js"
+    "static/js/main.10f8c8cf.chunk.js"
   ]
 }
