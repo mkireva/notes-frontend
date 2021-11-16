@@ -8,11 +8,15 @@ export interface TranslationValues {
         }
     }
 }
-
+const I18N_LANGUAGE_STORAGE_KEY = 'I18N_LANGUAGE_STORAGE_KEY'
 export const initI18n = (  translations: TranslationValues,
                            defaultLng: string,
 ) => {
-    const language = Object.keys(translations).find(
+    const savedLanguage = Object.keys(translations).find(
+        (lng) =>
+            localStorage.getItem(I18N_LANGUAGE_STORAGE_KEY) === lng.substring(0, 2),
+    )
+    const defaultBrowserLanguage = Object.keys(translations).find(
         (lng) =>
             navigator.language.substring(0, 2).toLowerCase() === lng.substring(0, 2),
     )
@@ -22,7 +26,7 @@ export const initI18n = (  translations: TranslationValues,
         .use(initReactI18next)
         // init i18next: https://www.i18next.com/overview/configuration-options
         .init({
-            lng: language || defaultLng,
+            lng: savedLanguage || defaultBrowserLanguage || defaultLng,
             fallbackLng: defaultLng,
             debug: process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'test',
             nsSeparator: false,
@@ -33,4 +37,7 @@ export const initI18n = (  translations: TranslationValues,
                 escapeValue: false,
             },
         });
+    i18n.on("languageChanged", (lng) =>{
+        localStorage.setItem(I18N_LANGUAGE_STORAGE_KEY, lng)
+    })
 };
