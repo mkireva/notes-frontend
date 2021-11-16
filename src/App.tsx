@@ -1,4 +1,4 @@
-import React, {Suspense} from "react";
+import React from "react";
 import {I18nextProvider, useTranslation} from "react-i18next";
 import de from "./assets/i18n/de.json";
 import en from "./assets/i18n/en.json";
@@ -20,21 +20,19 @@ initI18n(
     "en"
 );
 
-const history = createBrowserHistory();
+const history = createBrowserHistory({basename: process.env.PUBLIC_URL});
 export const App = () => {
     const {i18n} = useTranslation();
 
     //lazy loading require suspense
     return (
         <I18nextProvider i18n={i18n}>
+            <CssBaseline/>
             <StyledEngineProvider injectFirst>
                 <ThemeProvider>
-                    <CssBaseline/>
-                    <Suspense fallback={null}>
-                        <Router history={history}>
-                            <PageRouter/>
-                        </Router>
-                    </Suspense>
+                    <Router history={history}>
+                        <PageRouter/>
+                    </Router>
                 </ThemeProvider>
             </StyledEngineProvider>
         </I18nextProvider>
