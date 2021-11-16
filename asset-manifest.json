@@ -1,27 +1,22 @@
 {
   "files": {
     "main.css": "/notes-frontend/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/notes-frontend/static/js/main.fc42a034.chunk.js",
-    "main.js.map": "/notes-frontend/static/js/main.fc42a034.chunk.js.map",
-    "pages/notePage.js": "/notes-frontend/static/js/pages/notePage.c735f38d.chunk.js",
-    "pages/notePage.js.map": "/notes-frontend/static/js/pages/notePage.c735f38d.chunk.js.map",
-    "runtime-main.js": "/notes-frontend/static/js/runtime-main.10349c38.js",
-    "runtime-main.js.map": "/notes-frontend/static/js/runtime-main.10349c38.js.map",
-    "static/js/3.cfe562bc.chunk.js": "/notes-frontend/static/js/3.cfe562bc.chunk.js",
-    "static/js/3.cfe562bc.chunk.js.map": "/notes-frontend/static/js/3.cfe562bc.chunk.js.map",
-    "static/js/4.e0da9e3f.chunk.js": "/notes-frontend/static/js/4.e0da9e3f.chunk.js",
-    "static/js/4.e0da9e3f.chunk.js.map": "/notes-frontend/static/js/4.e0da9e3f.chunk.js.map",
-    "static/js/5.ab1e6c61.chunk.js": "/notes-frontend/static/js/5.ab1e6c61.chunk.js",
-    "static/js/5.ab1e6c61.chunk.js.map": "/notes-frontend/static/js/5.ab1e6c61.chunk.js.map",
+    "main.js": "/notes-frontend/static/js/main.ebf43e0c.chunk.js",
+    "main.js.map": "/notes-frontend/static/js/main.ebf43e0c.chunk.js.map",
+    "runtime-main.js": "/notes-frontend/static/js/runtime-main.b5a68fef.js",
+    "runtime-main.js.map": "/notes-frontend/static/js/runtime-main.b5a68fef.js.map",
+    "static/js/2.80238449.chunk.js": "/notes-frontend/static/js/2.80238449.chunk.js",
+    "static/js/2.80238449.chunk.js.map": "/notes-frontend/static/js/2.80238449.chunk.js.map",
+    "static/js/3.a5406502.chunk.js": "/notes-frontend/static/js/3.a5406502.chunk.js",
+    "static/js/3.a5406502.chunk.js.map": "/notes-frontend/static/js/3.a5406502.chunk.js.map",
     "index.html": "/notes-frontend/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/notes-frontend/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/3.cfe562bc.chunk.js.LICENSE.txt": "/notes-frontend/static/js/3.cfe562bc.chunk.js.LICENSE.txt",
-    "static/js/4.e0da9e3f.chunk.js.LICENSE.txt": "/notes-frontend/static/js/4.e0da9e3f.chunk.js.LICENSE.txt"
+    "static/js/2.80238449.chunk.js.LICENSE.txt": "/notes-frontend/static/js/2.80238449.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.10349c38.js",
-    "static/js/4.e0da9e3f.chunk.js",
+    "static/js/runtime-main.b5a68fef.js",
+    "static/js/2.80238449.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.fc42a034.chunk.js"
+    "static/js/main.ebf43e0c.chunk.js"
   ]
 }
