@@ -1,4 +1,5 @@
-export enum ColorPalette {
-    PRIMARY = '#003C91',
-    BACKGROUND = '#EDF2FA'
-}
+export const ColorPalette = {
+  PRIMARY: "#00883a",
+  BACKGROUND: "#e9ebf0",
+  SECONDARY: "#232323",
+};

@@ -1,14 +1,14 @@
 import React from "react";
-import {Layout} from "../../components/layout/Layout";
-import {getNSTrans} from "../../functions/getNsTrans";
+import { Layout } from "../../components/layout/Layout";
+import { getNSTrans } from "../../functions/getNsTrans";
 
-const Trans = getNSTrans('translation')
+const Trans = getNSTrans("translation");
 
 export const NotePage = () => (
   <Layout>
-      <Trans tOptions={{page: 'NotePage'}}>{'Welcome to {{page}}'}</Trans>
+    <Trans tOptions={{ page: "BeinsaNotes" }}>{"Welcome to {{page}}"}</Trans>
   </Layout>
 );
 
 //lazy import need default export
-export default NotePage
+export default NotePage;
