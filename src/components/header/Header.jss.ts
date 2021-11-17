@@ -6,10 +6,20 @@ export const getHeaderClasses = makeStyles(({ spacing, palette }: Theme) => ({
     backgroundColor: "#fff",
     border: 0,
   },
+  root: {
+    flexGrow: 1,
+  },
+  grow: {
+    flexGrow: 1,
+  },
+
+  toolbar: {
+    paddingLeft: 0,
+  },
   menuButton: {
     marginLeft: -12,
     // applying theme color palette directly (no useTheme hook)
-    color: "#b66e60",
+    color: "#00883a",
   },
   logoMobile: {
     height: 56,

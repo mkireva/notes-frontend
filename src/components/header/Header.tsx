@@ -90,9 +90,9 @@ export const Header = () => {
         position="fixed"
         className={classes.appBar}
         open={open}
-        variant="outlined"
+        elevation={0}
       >
-        <Toolbar>
+        <Toolbar className={classes.toolbar}>
           <Typography variant="h6" noWrap sx={{ flexGrow: 1 }} component="div">
             {logo}
           </Typography>

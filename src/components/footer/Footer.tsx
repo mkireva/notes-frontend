@@ -11,7 +11,7 @@ const useStyle = makeStyles(({ palette }: Theme) => ({
     paddingRight: 5,
     paddingTop: 6,
     paddingBottom: 6,
-    backgroundColor: palette.primary.main,
+    backgroundColor: "#5b5b5b",
     color: "#fff",
   },
   copyRight: {

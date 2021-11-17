@@ -1,4 +1,5 @@
 export const ColorPalette = {
-  PRIMARY: "#b66e60",
+  PRIMARY: "#00883a",
   BACKGROUND: "#e9ebf0",
+  SECONDARY: "#232323",
 };
