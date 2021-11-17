@@ -18,8 +18,8 @@ import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
 import { getHeaderClasses } from "./Header.jss";
-import desktopLogo from "assets/svg/desktop-logo.svg";
-import mobileLogo from "assets/svg/mobile-logo.svg";
+import desktopLogo from "./../../assets/svg/desktop-logo.svg";
+import mobileLogo from "./../../assets/svg/mobile-logo.svg";
 import { useMediaQuery } from "@mui/material";
 
 const drawerWidth = 240;
