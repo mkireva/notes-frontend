@@ -7,7 +7,7 @@ export const getHeaderClasses = makeStyles(({ spacing, palette }: Theme) => ({
     border: 0,
   },
   root: {
-    flexGrow: 1,
+    flexGrow: -1,
   },
   grow: {
     flexGrow: 1,

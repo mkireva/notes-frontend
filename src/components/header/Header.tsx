@@ -84,7 +84,7 @@ export const Header = () => {
   };
 
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box sx={{ display: "flex" }} className={classes.root}>
       <CssBaseline />
       <AppBar
         position="fixed"
@@ -93,7 +93,13 @@ export const Header = () => {
         elevation={0}
       >
         <Toolbar className={classes.toolbar}>
-          <Typography variant="h6" noWrap sx={{ flexGrow: 1 }} component="div">
+          <Typography
+            variant="h6"
+            noWrap
+            sx={{ flexGrow: 1 }}
+            component="div"
+            className={classes.grow}
+          >
             {logo}
           </Typography>
           <IconButton
