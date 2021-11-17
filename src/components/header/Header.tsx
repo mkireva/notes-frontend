@@ -17,9 +17,12 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
+import { getHeaderClasses } from "./Header.jss";
+import desktopLogo from "assets/svg/desktop-logo.svg";
+import mobileLogo from "assets/svg/mobile-logo.svg";
+import { useMediaQuery } from "@mui/material";
 
 const drawerWidth = 240;
-
 
 interface AppBarProps extends MuiAppBarProps {
   open?: boolean;
@@ -53,7 +56,24 @@ const DrawerHeader = styled("div")(({ theme }) => ({
 
 export const Header = () => {
   const theme = useTheme();
+  const classes = getHeaderClasses();
   const [open, setOpen] = React.useState(false);
+  let logo = (
+    <img
+      className={classes.logoMobile}
+      src={mobileLogo}
+      alt="beinsa notes logo"
+    />
+  );
+  if (useMediaQuery(theme.breakpoints.up("sm"))) {
+    logo = (
+      <img
+        className={classes.logoDesktop}
+        src={desktopLogo}
+        alt="beinsa notes logo"
+      />
+    );
+  }
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -66,12 +86,18 @@ export const Header = () => {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
-      <AppBar position="fixed" open={open}>
+      <AppBar
+        position="fixed"
+        className={classes.appBar}
+        open={open}
+        variant="outlined"
+      >
         <Toolbar>
           <Typography variant="h6" noWrap sx={{ flexGrow: 1 }} component="div">
-            {/* {logo} */}
+            {logo}
           </Typography>
           <IconButton
+            className={classes.menuButton}
             color="inherit"
             aria-label="open drawer"
             edge="end"
