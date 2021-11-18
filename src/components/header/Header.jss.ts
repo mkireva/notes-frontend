@@ -17,7 +17,6 @@ export const getHeaderClasses = makeStyles(({ spacing, palette }: Theme) => ({
     paddingLeft: 0,
   },
   menuButton: {
-    marginLeft: -12,
     // applying theme color palette directly (no useTheme hook)
     color: "#00883a",
   },

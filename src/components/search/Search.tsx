@@ -8,7 +8,7 @@ export default function Search() {
       sx={{
         marginLeft: 20,
         marginRight: 20,
-        width: 600,
+        width: "60%",
         maxWidth: "100%",
         backgroundColor: "#fff",
       }}

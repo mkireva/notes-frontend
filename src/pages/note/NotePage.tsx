@@ -20,7 +20,7 @@ export const NotePage = () => (
     <Typography
       variant="h4"
       fontWeight="bold"
-      color="#5b5b5b"
+      color="#232323"
       textAlign="center"
     >
       <Trans tOptions={{ page: "BeinsaNotes" }}>{"Welcome to {{page}}"}</Trans>
