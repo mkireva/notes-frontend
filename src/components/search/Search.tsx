@@ -1,19 +1,41 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
+import SearchIcon from "@mui/icons-material/Search";
+import { IconButton, Theme } from "@mui/material";
+import { makeStyles } from "@mui/styles";
+
+const useStyle = makeStyles(({ palette }: Theme) => ({
+  searchField: {
+    [`& fieldset`]: {
+      borderRadius: 50,
+    },
+  },
+}));
 
 export default function Search() {
+  const classes = useStyle();
+
   return (
     <Box
       sx={{
-        marginLeft: 20,
-        marginRight: 20,
-        width: "60%",
         maxWidth: "100%",
-        backgroundColor: "#fff",
       }}
     >
-      <TextField fullWidth label="Search for Song" id="fullWidth"></TextField>
+      <TextField
+        className={classes.searchField}
+        fullWidth
+        label="Search"
+        id="fullWidth"
+        size="small"
+        InputProps={{
+          endAdornment: (
+            <IconButton>
+              <SearchIcon />
+            </IconButton>
+          ),
+        }}
+      />
     </Box>
   );
 }

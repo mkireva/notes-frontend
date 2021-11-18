@@ -6,6 +6,7 @@ import { Button, Icon, Theme, Toolbar } from "@mui/material";
 import languageDeIcon from "../../assets/images/language_flags/de.svg";
 import languageEnIcon from "../../assets/images/language_flags/en.svg";
 import languageBgIcon from "../../assets/images/language_flags/bg.svg";
+
 const toolbarStyle: Partial<Styles<any, any, any>> = {
   flexDirection: "column",
   minHeight: 48,
@@ -16,8 +17,8 @@ const useStyle = makeStyles(({ palette }: Theme) => ({
     marginTop: 80,
     paddingLeft: 5,
     paddingRight: 5,
-    paddingTop: 26,
-    paddingBottom: 26,
+    paddingTop: 12,
+    paddingBottom: 12,
     backgroundColor: "#5b5b5b",
     color: "#fff",
     textAlign: "center",
