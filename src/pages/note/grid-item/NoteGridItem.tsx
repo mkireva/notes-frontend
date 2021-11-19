@@ -1,10 +1,6 @@
 import React, { CSSProperties } from "react";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
-import Grid from "@material-ui/core/Grid";
+import { Card, CardContent, CardMedia, Grid, useTheme } from "@mui/material";
 import { useTranslation } from "react-i18next";
-import { useTheme } from "@material-ui/core";
 import { getClasses } from "./NoteGridItem.jss";
 
 export interface INoteGridItem {

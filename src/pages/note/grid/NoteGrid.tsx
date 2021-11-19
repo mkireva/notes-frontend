@@ -1,18 +1,18 @@
 import React, { useState } from "react";
-import Grid from "@material-ui/core/Grid";
-import CircularProgress from "@material-ui/core/CircularProgress";
-import {
-  FormControl,
-  InputLabel,
-  MenuItem,
-  Select,
-  TextField,
-} from "@material-ui/core";
 
 import { IListNotesParameter } from "../../../open-api/interface/parameter/i-list-notes-parameter";
 import { useNotes } from "../../../hooks/useNotes";
 import { getClasses } from "./NoteGrid.jss";
 import { NoteGridItem } from "../grid-item/NoteGridItem";
+import {
+  CircularProgress,
+  FormControl,
+  Grid,
+  InputLabel,
+  MenuItem,
+  Select,
+  TextField,
+} from "@mui/material";
 
 export const ProductGrid = () => {
   const classes = getClasses();
