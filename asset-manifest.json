@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/notes-frontend/static/css/main.14e8cb10.chunk.css",
-    "main.js": "/notes-frontend/static/js/main.a03fd40b.chunk.js",
-    "main.js.map": "/notes-frontend/static/js/main.a03fd40b.chunk.js.map",
-    "runtime-main.js": "/notes-frontend/static/js/runtime-main.5a612f88.js",
-    "runtime-main.js.map": "/notes-frontend/static/js/runtime-main.5a612f88.js.map",
-    "static/js/2.59249280.chunk.js": "/notes-frontend/static/js/2.59249280.chunk.js",
-    "static/js/2.59249280.chunk.js.map": "/notes-frontend/static/js/2.59249280.chunk.js.map",
-    "static/js/3.b24a0931.chunk.js": "/notes-frontend/static/js/3.b24a0931.chunk.js",
-    "static/js/3.b24a0931.chunk.js.map": "/notes-frontend/static/js/3.b24a0931.chunk.js.map",
+    "main.js": "/notes-frontend/static/js/main.77f58ef1.chunk.js",
+    "main.js.map": "/notes-frontend/static/js/main.77f58ef1.chunk.js.map",
+    "runtime-main.js": "/notes-frontend/static/js/runtime-main.2992d843.js",
+    "runtime-main.js.map": "/notes-frontend/static/js/runtime-main.2992d843.js.map",
+    "static/js/2.b5132436.chunk.js": "/notes-frontend/static/js/2.b5132436.chunk.js",
+    "static/js/2.b5132436.chunk.js.map": "/notes-frontend/static/js/2.b5132436.chunk.js.map",
+    "static/js/3.864e09db.chunk.js": "/notes-frontend/static/js/3.864e09db.chunk.js",
+    "static/js/3.864e09db.chunk.js.map": "/notes-frontend/static/js/3.864e09db.chunk.js.map",
     "index.html": "/notes-frontend/index.html",
     "static/css/main.14e8cb10.chunk.css.map": "/notes-frontend/static/css/main.14e8cb10.chunk.css.map",
-    "static/js/2.59249280.chunk.js.LICENSE.txt": "/notes-frontend/static/js/2.59249280.chunk.js.LICENSE.txt",
+    "static/js/2.b5132436.chunk.js.LICENSE.txt": "/notes-frontend/static/js/2.b5132436.chunk.js.LICENSE.txt",
     "static/media/bg.70f96132.svg": "/notes-frontend/static/media/bg.70f96132.svg",
     "static/media/de.621db2df.svg": "/notes-frontend/static/media/de.621db2df.svg",
     "static/media/desktop-logo.23d85190.svg": "/notes-frontend/static/media/desktop-logo.23d85190.svg",
@@ -19,9 +19,9 @@
     "static/media/mobile-logo.e9421a11.svg": "/notes-frontend/static/media/mobile-logo.e9421a11.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5a612f88.js",
-    "static/js/2.59249280.chunk.js",
+    "static/js/runtime-main.2992d843.js",
+    "static/js/2.b5132436.chunk.js",
     "static/css/main.14e8cb10.chunk.css",
-    "static/js/main.a03fd40b.chunk.js"
+    "static/js/main.77f58ef1.chunk.js"
   ]
 }
