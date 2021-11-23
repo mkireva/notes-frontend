@@ -6,6 +6,7 @@ import Search from "../../components/search/Search";
 import { getNSTrans } from "../../functions/getNsTrans";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
+import { InfoBox } from "../../components/infobox/InfoBox";
 
 const Trans = getNSTrans("translation");
 
@@ -13,6 +14,7 @@ const theme = createTheme();
 
 theme.typography.h3 = {
   fontSize: "1.2rem",
+  color: "#232323",
   "@media (min-width:600px)": {
     fontSize: "1.5rem",
   },
@@ -24,26 +26,14 @@ theme.typography.h3 = {
 export const NotePage = () => (
   <Layout>
     <ThemeProvider theme={theme}>
-      <Typography
-        variant="h3"
-        fontWeight="bold"
-        color="#232323"
-        textAlign="center"
-      >
+      <Typography variant="h3" fontWeight="bold" textAlign="center">
         <Trans tOptions={{ page: "BeinsaNotes" }}>
           {"Welcome to {{page}}"}
         </Trans>
       </Typography>
+      <Search />
+      <InfoBox />
     </ThemeProvider>
-    <Box sx={{ flexGrow: 1 }} marginTop={7}>
-      <Grid container spacing={3}>
-        <Grid item xs></Grid>
-        <Grid item xs={6}>
-          <Search />
-        </Grid>
-        <Grid item xs></Grid>
-      </Grid>
-    </Box>
   </Layout>
 );
 
