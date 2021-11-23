@@ -5,6 +5,7 @@ import { getNSTrans } from "../../functions/getNsTrans";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
 import { InfoBox } from "../../components/infobox/InfoBox";
+import ScorePage from "../score/ScorePage";
 
 const Trans = getNSTrans("translation");
 
@@ -32,6 +33,7 @@ export const NotePage = () => (
       <Search />
       <InfoBox />
     </ThemeProvider>
+    <ScorePage />
   </Layout>
 );
 
