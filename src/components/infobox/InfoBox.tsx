@@ -8,10 +8,6 @@ import {
   Typography,
   AccordionDetails,
   Paper,
-  ThemeProvider,
-  createTheme,
-  makeStyles,
-  Theme,
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
@@ -28,7 +24,7 @@ export const InfoBox = () => {
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
-                <Typography>Information about the song</Typography>
+                <Typography>Information</Typography>
               </AccordionSummary>
               <AccordionDetails>
                 <Paper
@@ -77,7 +73,10 @@ export const InfoBox = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Suspendisse malesuada lacus ex, sit amet blandit leo
                     lobortis eget. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit.
+                    adipiscing elit. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Suspendisse malesuada lacus ex, sit amet
+                    blandit leo lobortis eget. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
                   </Typography>
                 </Box>
               </AccordionDetails>

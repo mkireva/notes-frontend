@@ -1,5 +1,3 @@
-import { Box, Grid } from "@mui/material";
-
 import React from "react";
 import { Layout } from "../../components/layout/Layout";
 import Search from "../../components/search/Search";
