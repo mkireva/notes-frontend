@@ -26,9 +26,9 @@
      inkscape:zoom="2.9753695"
      inkscape:cx="183.17053"
      inkscape:cy="44.028145"
-     inkscape:window-width="1792"
-     inkscape:window-height="1092"
-     inkscape:window-x="1920"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
      inkscape:window-y="28"
      inkscape:window-maximized="0"
      inkscape:current-layer="g134" />
@@ -49,7 +49,7 @@
      transform="scale(0.90242527)"
      id="g134">
     <polygon
-       style="fill:#008b3b;fill-opacity:1"
+       style="fill:#00883a;fill-opacity:1"
        points="410.26,88.65 0,88.65 0,0 448.81,0 "
        id="polygon72"
        transform="scale(0.99999182,1.0000157)" />
@@ -66,15 +66,15 @@
          y="70.762222" /></text>
     <text
        xml:space="preserve"
-       style="font-size:32.505px;line-height:1.25;font-family:sans-serif;stroke-width:1.10812"
+       style="font-size:29.55px;line-height:1.25;font-family:sans-serif;stroke-width:1.10812"
        x="131.84119"
-       y="51.340683"
+       y="53.556934"
        id="text24419"><tspan
          sodipodi:role="line"
          id="tspan24417"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.505px;font-family:Helvetica;-inkscape-font-specification:Helvetica;fill:#ffffff;fill-opacity:1;stroke-width:1.10812"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.55px;font-family:Helvetica;-inkscape-font-specification:Helvetica;fill:#ffffff;fill-opacity:1;stroke-width:1.10812"
          x="131.84119"
-         y="51.340683">BeinsaNotes</tspan></text>
+         y="53.556934">BeinsaNotes</tspan></text>
     <g
        id="g5682-9"
        transform="matrix(1.099156,-0.01046,0.00879928,0.98013308,47.922626,9.4231474)"
@@ -95,13 +95,13 @@
     <text
        xml:space="preserve"
        style="font-size:13.2975px;line-height:1.25;font-family:sans-serif;stroke-width:1.10812"
-       x="169.08446"
-       y="72.178574"
+       x="240.00438"
+       y="76.611069"
        id="text32736"><tspan
          sodipodi:role="line"
          id="tspan32734"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.2975px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';fill:#ffffff;fill-opacity:1;stroke-width:1.10812"
-         x="169.08446"
-         y="72.178574">The music notes library</tspan></text>
+         x="240.00438"
+         y="76.611069">The music notes library</tspan></text>
   </g>
 </svg>
