@@ -43,6 +43,7 @@ export const OpenSheetMusicDisplay = (props: PropsWithChildren<any>) => {
     osmd = new OSMD(divRef.current, options);
     osmd.load(file).then(() => osmd.render());
   };
+  console.log(divRef);
 
   useLayoutEffect(() => {
     window.addEventListener("resize", forceUpdate);
