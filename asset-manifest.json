@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/notes-frontend/static/css/main.14e8cb10.chunk.css",
-    "main.js": "/notes-frontend/static/js/main.3ea7e967.chunk.js",
-    "main.js.map": "/notes-frontend/static/js/main.3ea7e967.chunk.js.map",
+    "main.js": "/notes-frontend/static/js/main.d416cdc9.chunk.js",
+    "main.js.map": "/notes-frontend/static/js/main.d416cdc9.chunk.js.map",
     "runtime-main.js": "/notes-frontend/static/js/runtime-main.2992d843.js",
     "runtime-main.js.map": "/notes-frontend/static/js/runtime-main.2992d843.js.map",
     "static/js/2.b5132436.chunk.js": "/notes-frontend/static/js/2.b5132436.chunk.js",
@@ -14,14 +14,14 @@
     "static/js/2.b5132436.chunk.js.LICENSE.txt": "/notes-frontend/static/js/2.b5132436.chunk.js.LICENSE.txt",
     "static/media/bg.70f96132.svg": "/notes-frontend/static/media/bg.70f96132.svg",
     "static/media/de.621db2df.svg": "/notes-frontend/static/media/de.621db2df.svg",
-    "static/media/desktop-logo.23d85190.svg": "/notes-frontend/static/media/desktop-logo.23d85190.svg",
+    "static/media/desktop-logo.e73dfa72.svg": "/notes-frontend/static/media/desktop-logo.e73dfa72.svg",
     "static/media/en.bc848e93.svg": "/notes-frontend/static/media/en.bc848e93.svg",
-    "static/media/mobile-logo.e9421a11.svg": "/notes-frontend/static/media/mobile-logo.e9421a11.svg"
+    "static/media/mobile-logo.0f8a6283.svg": "/notes-frontend/static/media/mobile-logo.0f8a6283.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2992d843.js",
     "static/js/2.b5132436.chunk.js",
     "static/css/main.14e8cb10.chunk.css",
-    "static/js/main.3ea7e967.chunk.js"
+    "static/js/main.d416cdc9.chunk.js"
   ]
 }
