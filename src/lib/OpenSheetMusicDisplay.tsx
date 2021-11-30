@@ -5,7 +5,6 @@ import React, {
   useRef,
   useState,
   PropsWithChildren,
-  memo,
 } from "react";
 import { OpenSheetMusicDisplay as OSMD } from "opensheetmusicdisplay";
 
