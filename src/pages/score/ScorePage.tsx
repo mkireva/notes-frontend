@@ -1,6 +1,6 @@
 import { Box, Grid } from "@mui/material";
 import React, { useState } from "react";
-import OpenSheetMusicDisplay from "../../lib/OpenSheetMusicDisplay";
+import ScoreDisplay from "../../lib/ScoreDisplay";
 
 export const ScorePage = () => {
   const initialState = {
@@ -11,7 +11,7 @@ export const ScorePage = () => {
 
   return (
     <div className="ScorePage">
-      <OpenSheetMusicDisplay file={initialState.file} />
+      <ScoreDisplay file={initialState.file} />
     </div>
   );
 };

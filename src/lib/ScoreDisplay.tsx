@@ -1,10 +1,10 @@
 import React, {
+  PropsWithChildren,
+  useCallback,
   useEffect,
   useLayoutEffect,
-  useReducer,
   useRef,
   useState,
-  PropsWithChildren,
 } from "react";
 import { OpenSheetMusicDisplay as OSMD } from "opensheetmusicdisplay";
 
@@ -16,14 +16,8 @@ function usePrevious(value: any) {
   return ref.current;
 }
 
-export const OpenSheetMusicDisplay = (props: PropsWithChildren<any>) => {
-  const { drawTitle, autoResize } = props;
-
-  const prevDrawTitle = usePrevious({
-    drawTitle,
-    autoResize,
-  });
-  const divRef = useRef();
+export const ScoreDisplay = (props: PropsWithChildren<any>, ref: any) => {
+  const { drawTitle, autoResize, file, osmd } = props;
 
   const [, setState] = useState({
     dataReady: false,
@@ -31,23 +25,31 @@ export const OpenSheetMusicDisplay = (props: PropsWithChildren<any>) => {
     divRef: useRef(),
   });
 
-  let osmd = OpenSheetMusicDisplay;
+  const prevDrawTitle = usePrevious({
+    drawTitle,
+    autoResize,
+  });
 
-  const [, forceUpdate] = useReducer((x) => x + 1, 0);
+  const divRef = useRef();
+  const [, updateState] = useState();
+  const forceUpdate = useCallback(() => updateState({}), []);
 
   const setupOsmd = () => {
     const options = {
       autoResize: autoResize !== undefined ? autoResize : true,
       drawTitle: drawTitle !== undefined ? drawTitle : true,
     };
-    osmd = new OSMD(divRef.current, options);
+    osmd = new OSMD(ref.current, options);
     osmd.load(file).then(() => osmd.render());
   };
-  console.log(divRef);
+
+  const resize = () => {
+    forceUpdate();
+  };
 
   useLayoutEffect(() => {
-    window.addEventListener("resize", forceUpdate);
-    return () => window.removeEventListener("resize", forceUpdate);
+    window.addEventListener("resize", resize);
+    return () => window.removeEventListener("resize", resize);
   }, []);
 
   useEffect(() => {
@@ -57,7 +59,7 @@ export const OpenSheetMusicDisplay = (props: PropsWithChildren<any>) => {
       osmd.load(file).then(() => osmd.render());
     }
     return () => {
-      window.addEventListener("resize", forceUpdate);
+      window.addEventListener("resize", resize);
     };
   }, []);
 
@@ -69,4 +71,6 @@ export const OpenSheetMusicDisplay = (props: PropsWithChildren<any>) => {
   return <div ref={divRef} />;
 };
 
-export default OpenSheetMusicDisplay;
+const forwardedScoreDisplay = React.forwardRef(ScoreDisplay);
+
+export default forwardedScoreDisplay;
