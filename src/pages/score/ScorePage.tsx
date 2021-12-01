@@ -1,6 +1,5 @@
-import { Box, Grid } from "@mui/material";
 import React, { useState } from "react";
-import ScoreDisplay from "../../lib/ScoreDisplay";
+import {Osmd} from "../../lib/Osmd";
 
 export const ScorePage = () => {
   const initialState = {
@@ -11,7 +10,7 @@ export const ScorePage = () => {
 
   return (
     <div className="ScorePage">
-      <ScoreDisplay file={initialState.file} />
+      <Osmd file={initialState.file} />
     </div>
   );
 };

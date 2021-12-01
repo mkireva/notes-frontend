@@ -6,6 +6,7 @@
   "dependencies": {
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
+    "@milkscout/react": "^1.0.34",
     "@mui/icons-material": "^5.0.4",
     "@mui/material": "^5.0.4",
     "@mui/styles": "^5.0.2",
@@ -17,6 +18,8 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "cypress": "^8.7.0",
+    "dompurify": "^2.3.1",
+    "html-react-parser": "^1.2.8",
     "i18next": "^21.4.0",
     "opensheetmusicdisplay": "^1.3.0",
     "react": "^17.0.2",
