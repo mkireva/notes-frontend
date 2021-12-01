@@ -46,3 +46,4 @@ cypress.env.json
 # Istanbul code coverage report output (in relation to Cypress)
 .nyc_output
 /src/open-api/
+/build/
