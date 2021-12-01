@@ -1,27 +1,28 @@
 {
   "files": {
     "main.css": "/notes-frontend/static/css/main.14e8cb10.chunk.css",
-    "main.js": "/notes-frontend/static/js/main.448b1954.chunk.js",
-    "main.js.map": "/notes-frontend/static/js/main.448b1954.chunk.js.map",
-    "runtime-main.js": "/notes-frontend/static/js/runtime-main.f90e0ae9.js",
-    "runtime-main.js.map": "/notes-frontend/static/js/runtime-main.f90e0ae9.js.map",
-    "static/js/2.f6ccccc6.chunk.js": "/notes-frontend/static/js/2.f6ccccc6.chunk.js",
-    "static/js/2.f6ccccc6.chunk.js.map": "/notes-frontend/static/js/2.f6ccccc6.chunk.js.map",
-    "static/js/3.959f25dc.chunk.js": "/notes-frontend/static/js/3.959f25dc.chunk.js",
-    "static/js/3.959f25dc.chunk.js.map": "/notes-frontend/static/js/3.959f25dc.chunk.js.map",
+    "main.js": "/notes-frontend/static/js/main.c69c26e2.chunk.js",
+    "main.js.map": "/notes-frontend/static/js/main.c69c26e2.chunk.js.map",
+    "runtime-main.js": "/notes-frontend/static/js/runtime-main.d3c8224f.js",
+    "runtime-main.js.map": "/notes-frontend/static/js/runtime-main.d3c8224f.js.map",
+    "static/js/2.439ac6bb.chunk.js": "/notes-frontend/static/js/2.439ac6bb.chunk.js",
+    "static/js/2.439ac6bb.chunk.js.map": "/notes-frontend/static/js/2.439ac6bb.chunk.js.map",
+    "static/js/3.5879ae02.chunk.js": "/notes-frontend/static/js/3.5879ae02.chunk.js",
+    "static/js/3.5879ae02.chunk.js.map": "/notes-frontend/static/js/3.5879ae02.chunk.js.map",
     "index.html": "/notes-frontend/index.html",
     "static/css/main.14e8cb10.chunk.css.map": "/notes-frontend/static/css/main.14e8cb10.chunk.css.map",
-    "static/js/2.f6ccccc6.chunk.js.LICENSE.txt": "/notes-frontend/static/js/2.f6ccccc6.chunk.js.LICENSE.txt",
+    "static/js/2.439ac6bb.chunk.js.LICENSE.txt": "/notes-frontend/static/js/2.439ac6bb.chunk.js.LICENSE.txt",
     "static/media/bg.70f96132.svg": "/notes-frontend/static/media/bg.70f96132.svg",
     "static/media/de.621db2df.svg": "/notes-frontend/static/media/de.621db2df.svg",
     "static/media/desktop-logo.e73dfa72.svg": "/notes-frontend/static/media/desktop-logo.e73dfa72.svg",
     "static/media/en.bc848e93.svg": "/notes-frontend/static/media/en.bc848e93.svg",
+    "static/media/igrata-na-poto4eto.36ca0b1e.musicxml": "/notes-frontend/static/media/igrata-na-poto4eto.36ca0b1e.musicxml",
     "static/media/mobile-logo.0f8a6283.svg": "/notes-frontend/static/media/mobile-logo.0f8a6283.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f90e0ae9.js",
-    "static/js/2.f6ccccc6.chunk.js",
+    "static/js/runtime-main.d3c8224f.js",
+    "static/js/2.439ac6bb.chunk.js",
     "static/css/main.14e8cb10.chunk.css",
-    "static/js/main.448b1954.chunk.js"
+    "static/js/main.c69c26e2.chunk.js"
   ]
 }
