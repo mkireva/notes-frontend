@@ -1,0 +1,2011 @@
+<?xml version="1.0" encoding='UTF-8' standalone='no' ?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="3.0">
+ <work>
+  <work-title>Зората на новия живот</work-title>
+ </work>
+ <identification>
+  <encoding>
+   <encoding-date>2021-12-02</encoding-date>
+   <encoder>Mariya Kireva</encoder>
+   <software>Sibelius 21.9.0</software>
+   <software>Direct export, not from Dolet</software>
+   <encoding-description>Sibelius / MusicXML 3.0</encoding-description>
+   <supports element="print" type="yes" value="yes" attribute="new-system" />
+   <supports element="print" type="yes" value="yes" attribute="new-page" />
+   <supports element="accidental" type="yes" />
+   <supports element="beam" type="yes" />
+   <supports element="stem" type="yes" />
+  </encoding>
+ </identification>
+ <defaults>
+  <scaling>
+   <millimeters>210</millimeters>
+   <tenths>1120</tenths>
+  </scaling>
+  <page-layout>
+   <page-height>1584</page-height>
+   <page-width>1120</page-width>
+   <page-margins type="both">
+    <left-margin>80</left-margin>
+    <right-margin>80</right-margin>
+    <top-margin>80</top-margin>
+    <bottom-margin>80</bottom-margin>
+   </page-margins>
+  </page-layout>
+  <system-layout>
+   <system-margins>
+    <left-margin>25</left-margin>
+    <right-margin>0</right-margin>
+   </system-margins>
+   <system-distance>0</system-distance>
+  </system-layout>
+  <appearance>
+   <line-width type="stem">0.9375</line-width>
+   <line-width type="beam">5</line-width>
+   <line-width type="staff">0.9375</line-width>
+   <line-width type="light barline">1.5625</line-width>
+   <line-width type="heavy barline">5</line-width>
+   <line-width type="leger">1.5625</line-width>
+   <line-width type="ending">1.5625</line-width>
+   <line-width type="wedge">1.25</line-width>
+   <line-width type="enclosure">0.9375</line-width>
+   <line-width type="tuplet bracket">1.25</line-width>
+   <line-width type="bracket">5</line-width>
+   <line-width type="dashes">1.5625</line-width>
+   <line-width type="extend">0.9375</line-width>
+   <line-width type="octave shift">1.5625</line-width>
+   <line-width type="pedal">1.5625</line-width>
+   <line-width type="slur middle">1.5625</line-width>
+   <line-width type="slur tip">0.3125</line-width>
+   <line-width type="tie middle">1.5625</line-width>
+   <line-width type="tie tip">0.3125</line-width>
+   <note-size type="cue">75</note-size>
+   <note-size type="grace">60</note-size>
+  </appearance>
+  <music-font font-family="Opus Std" font-size="20.7616" />
+  <word-font font-family="Times New Roman" font-size="14.9483" />
+  <lyric-font font-family="Times New Roman" font-size="13.9518" />
+  <lyric-language xml:lang="de" />
+ </defaults>
+ <credit page="1">
+  <credit-words default-x="560" default-y="1503" font-family="Times New Roman" font-style="normal" font-size="21.4259" font-weight="bold" justify="center" valign="middle">Зората на новия живот</credit-words>
+ </credit>
+ <credit page="2">
+  <credit-words default-x="0" default-y="-24" font-style="normal" font-weight="normal" justify="left" valign="middle">2</credit-words>
+ </credit>
+ <part-list>
+  <score-part id="P1">
+   <identification>
+    <miscellaneous>
+     <miscellaneous-field name="show-rhythms">false</miscellaneous-field>
+    </miscellaneous>
+   </identification>
+   <part-name>P1</part-name>
+   <score-instrument id="P1-I1">
+    <instrument-name>  (9)</instrument-name>
+    <instrument-sound>keyboard.piano.grand</instrument-sound>
+    <solo />
+    <virtual-instrument>
+     <virtual-library>General MIDI</virtual-library>
+     <virtual-name>Acoustic Piano</virtual-name>
+    </virtual-instrument>
+   </score-instrument>
+   <score-instrument id="P1-I2">
+    <instrument-name>  (10)</instrument-name>
+    <virtual-instrument>
+     <virtual-library>General MIDI</virtual-library>
+     <virtual-name>Bright Piano</virtual-name>
+    </virtual-instrument>
+   </score-instrument>
+   <score-instrument id="P1-I3">
+    <instrument-name>  (9)</instrument-name>
+    <virtual-instrument>
+     <virtual-library>General MIDI</virtual-library>
+     <virtual-name>Bright Piano</virtual-name>
+    </virtual-instrument>
+   </score-instrument>
+  </score-part>
+ </part-list>
+ <part id="P1">
+  <!--============== Part: P1, Measure: 1 ==============-->
+  <measure number="1" width="143">
+   <print new-page="yes">
+    <system-layout>
+     <system-margins>
+      <left-margin>25</left-margin>
+      <right-margin>0</right-margin>
+     </system-margins>
+     <top-system-distance>104</top-system-distance>
+    </system-layout>
+   </print>
+   <attributes>
+    <divisions>256</divisions>
+    <key color="#000000">
+     <fifths>0</fifths>
+     <mode>major</mode>
+    </key>
+    <time color="#000000">
+     <beats>3</beats>
+     <beat-type>8</beat-type>
+    </time>
+    <staves>1</staves>
+    <clef number="1" color="#000000">
+     <sign>G</sign>
+     <line>2</line>
+    </clef>
+    <staff-details number="1" print-object="yes" />
+   </attributes>
+   <direction>
+    <direction-type>
+     <words default-x="78" default-y="25" justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="14.1179" font-weight="bold">Moderato  </words>
+     <words justify="left" valign="middle" font-family="Opus Text Std" font-style="normal" font-size="14.1179" font-weight="normal">e</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="14.1179" font-weight="bold"> = 160</words>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <note color="#000000" default-x="78" default-y="-15">
+    <pitch>
+     <step>C</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-76" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>Зо</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 2 ==============-->
+  <measure number="2" width="164">
+   <note color="#000000" default-x="15" default-y="-5">
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-76" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>ра</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="102" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-76" number="part1verse1" color="#000000">
+     <syllabic>single</syllabic>
+     <text>се</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 3 ==============-->
+  <measure number="3" width="165">
+   <note color="#000000" default-x="15" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <lyric default-y="-76" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>чуд</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="103" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-76" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>на</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 4 ==============-->
+  <measure number="4" width="165">
+   <note color="#000000" default-x="15" default-y="10">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-76" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>за</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="102" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-76" number="part1verse1" color="#000000">
+     <syllabic>middle</syllabic>
+     <text>зо</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 5 ==============-->
+  <measure number="5" width="130">
+   <note color="#000000" default-x="15" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>384</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot />
+    <stem>down</stem>
+    <staff>1</staff>
+    <lyric default-y="-76" number="part1verse1" color="#000000">
+     <syllabic>middle</syllabic>
+     <text>ря</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 6 ==============-->
+  <measure number="6" width="165">
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <notations>
+     <fermata>normal</fermata>
+    </notations>
+    <lyric default-y="-76" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>ва,</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="102" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-76" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>зо</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 7 ==============-->
+  <measure number="7" width="182">
+   <print new-system="yes">
+    <system-layout>
+     <system-margins>
+      <left-margin>25</left-margin>
+      <right-margin>0</right-margin>
+     </system-margins>
+     <system-distance>104</system-distance>
+    </system-layout>
+   </print>
+   <attributes>
+    <staff-details number="1" print-object="yes" />
+   </attributes>
+   <note color="#000000" default-x="57" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>ра</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="130" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>single</syllabic>
+     <text>на</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 8 ==============-->
+  <measure number="8" width="170">
+   <note color="#000000" default-x="15" default-y="-49">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <slur color="#000000" type="start" orientation="over" />
+    </notations>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>све</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="66" default-y="-49">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <slur color="#000000" type="stop" orientation="over" />
+    </notations>
+   </note>
+   <note color="#000000" default-x="118" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>тъл</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 9 ==============-->
+  <measure number="9" width="144">
+   <note color="#000000" default-x="15" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>single</syllabic>
+     <text>нов</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="88" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>жи</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 10 ==============-->
+  <measure number="10" width="152">
+   <note color="#000000" default-x="15" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <notations>
+     <fermata>normal</fermata>
+    </notations>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>вот,</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="90" default-y="10">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>с’ве</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 11 ==============-->
+  <measure number="11" width="141">
+   <note color="#000000" default-x="15" default-y="10">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>middle</syllabic>
+     <text>ли</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="88" default-y="10">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>middle</syllabic>
+     <text>ко</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 12 ==============-->
+  <measure number="12" width="143">
+   <note color="#000000" default-x="15" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>middle</syllabic>
+     <text>ле</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="88" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>middle</syllabic>
+     <text>пи</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 13 ==============-->
+  <measure number="13" width="172">
+   <print new-system="yes">
+    <system-layout>
+     <system-margins>
+      <left-margin>25</left-margin>
+      <right-margin>0</right-margin>
+     </system-margins>
+     <system-distance>104</system-distance>
+    </system-layout>
+   </print>
+   <attributes>
+    <staff-details number="1" print-object="yes" />
+   </attributes>
+   <note color="#000000" default-x="57" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>е</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="124" default-y="10">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>о</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 14 ==============-->
+  <measure number="14" width="103">
+   <note color="#000000" default-x="15" default-y="10">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>384</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot />
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>middle</syllabic>
+     <text>гря</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 15 ==============-->
+  <measure number="15" width="131">
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <notations>
+     <fermata>normal</fermata>
+    </notations>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>ва</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="82" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>по</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 16 ==============-->
+  <measure number="16" width="141">
+   <note color="#000000" default-x="18" default-y="10">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>middle</syllabic>
+     <text>спре</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="91" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>middle</syllabic>
+     <text>ли</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 17 ==============-->
+  <measure number="17" width="129">
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>я</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="82">
+    <pitch>
+     <step>F</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>single</syllabic>
+     <text>се</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 18 ==============-->
+  <measure number="18" width="134">
+   <note color="#000000" default-x="16" default-y="-5">
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>single</syllabic>
+     <text>наш</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="85" default-y="-10">
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>жи</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 19 ==============-->
+  <measure number="19" width="121">
+   <note color="#000000" default-x="20" default-y="-15">
+    <pitch>
+     <step>C</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>384</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot />
+    <stem>up</stem>
+    <staff>1</staff>
+    <notations>
+     <fermata>normal</fermata>
+    </notations>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>вот.</text>
+    </lyric>
+   </note>
+   <barline>
+    <bar-style>light-light</bar-style>
+   </barline>
+  </measure>
+  <!--============== Part: P1, Measure: 20 ==============-->
+  <measure number="20" width="235">
+   <print new-system="yes">
+    <system-layout>
+     <system-margins>
+      <left-margin>25</left-margin>
+      <right-margin>0</right-margin>
+     </system-margins>
+     <system-distance>104</system-distance>
+    </system-layout>
+   </print>
+   <attributes>
+    <staff-details number="1" print-object="yes" />
+   </attributes>
+   <direction>
+    <direction-type>
+     <words default-x="74" default-y="22" justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="14.1179" font-weight="bold">Più mosso  </words>
+     <words justify="left" valign="middle" font-family="Opus Text Std" font-style="normal" font-size="14.1179" font-weight="normal">e</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="14.1179" font-weight="bold"> = 176</words>
+    </direction-type>
+    <offset sound="no">22</offset>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <note color="#000000" default-x="62" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>В’но</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="132">
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <accidental>sharp</accidental>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>middle</syllabic>
+     <text>ви</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="184" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>я</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 21 ==============-->
+  <measure number="21" width="143">
+   <note color="#000000" default-x="15" default-y="10">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>све</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="92" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>тъл</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 22 ==============-->
+  <measure number="22" width="144">
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>single</syllabic>
+     <text>тоз</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="87" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>жи</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 23 ==============-->
+  <measure number="23" width="110">
+   <note color="#000000" default-x="15" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>384</duration>
+    <tie type="start" />
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot />
+    <stem>down</stem>
+    <staff>1</staff>
+    <notations>
+     <tied type="start" orientation="over" />
+    </notations>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>вот,</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 24 ==============-->
+  <measure number="24" width="110">
+   <note color="#000000" default-x="15" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>384</duration>
+    <tie type="stop" />
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot />
+    <stem>down</stem>
+    <staff>1</staff>
+    <notations>
+     <tied type="stop" orientation="over" />
+    </notations>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 25 ==============-->
+  <measure number="25" width="189">
+   <note color="#000000" default-x="17" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>в’но</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="85" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>middle</syllabic>
+     <text>ви</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="137" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>я</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 26 ==============-->
+  <measure number="26" width="196">
+   <print new-system="yes">
+    <system-layout>
+     <system-margins>
+      <left-margin>25</left-margin>
+      <right-margin>0</right-margin>
+     </system-margins>
+     <system-distance>104</system-distance>
+    </system-layout>
+   </print>
+   <attributes>
+    <staff-details number="1" print-object="yes" />
+   </attributes>
+   <note color="#000000" default-x="57" default-y="-45">
+    <pitch>
+     <step>D</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>све</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="140" default-y="-50">
+    <pitch>
+     <step>C</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>тъл</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 27 ==============-->
+  <measure number="27" width="153">
+   <note color="#000000" default-x="15" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>single</syllabic>
+     <text>тоз</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="93" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>жи</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 28 ==============-->
+  <measure number="28" width="119">
+   <note color="#000000" default-x="15" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>384</duration>
+    <tie type="start" />
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot />
+    <stem>down</stem>
+    <staff>1</staff>
+    <notations>
+     <tied type="start" orientation="over" />
+    </notations>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>вот,</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 29 ==============-->
+  <measure number="29" width="153">
+   <note color="#000000" default-x="15" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <tie type="stop" />
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <notations>
+     <tied type="stop" orientation="over" />
+    </notations>
+   </note>
+   <note color="#000000" default-x="93" default-y="10">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>жи</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 30 ==============-->
+  <measure number="30" width="149">
+   <note color="#000000" default-x="15" default-y="-55">
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>вот</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="93" default-y="10">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>single</syllabic>
+     <text>на</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 31 ==============-->
+  <measure number="31" width="162">
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>Лю</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="99">
+    <pitch>
+     <step>F</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>middle</syllabic>
+     <text>бов</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 32 ==============-->
+  <measure number="32" width="165">
+   <print new-system="yes">
+    <system-layout>
+     <system-margins>
+      <left-margin>25</left-margin>
+      <right-margin>0</right-margin>
+     </system-margins>
+     <system-distance>104</system-distance>
+    </system-layout>
+   </print>
+   <attributes>
+    <staff-details number="1" print-object="yes" />
+   </attributes>
+   <note color="#000000" default-x="57" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>384</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot />
+    <stem>up</stem>
+    <staff>1</staff>
+    <notations>
+     <slur color="#000000" type="start" orientation="under" />
+    </notations>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>та,</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 33 ==============-->
+  <measure number="33" width="122">
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>384</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot />
+    <stem>up</stem>
+    <staff>1</staff>
+    <notations>
+     <slur color="#000000" type="stop" orientation="under" />
+    </notations>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 34 ==============-->
+  <measure number="34" width="207">
+   <note color="#000000" default-x="17" default-y="10">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>в’но</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="91" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>middle</syllabic>
+     <text>ви</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="150">
+    <pitch>
+     <step>F</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>я</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 35 ==============-->
+  <measure number="35" width="158">
+   <note color="#000000" default-x="15">
+    <pitch>
+     <step>F</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>све</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="101">
+    <pitch>
+     <step>F</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>тъл</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 36 ==============-->
+  <measure number="36" width="158">
+   <note color="#000000" default-x="15" default-y="-5">
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>single</syllabic>
+     <text>тоз</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="96">
+    <pitch>
+     <step>F</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>жи</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 37 ==============-->
+  <measure number="37" width="122">
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>384</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot />
+    <stem>up</stem>
+    <staff>1</staff>
+    <notations>
+     <slur color="#000000" type="start" orientation="under" />
+    </notations>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>вот,</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 38 ==============-->
+  <measure number="38" width="169">
+   <print new-system="yes">
+    <system-layout>
+     <system-margins>
+      <left-margin>25</left-margin>
+      <right-margin>0</right-margin>
+     </system-margins>
+     <system-distance>104</system-distance>
+    </system-layout>
+   </print>
+   <attributes>
+    <staff-details number="1" print-object="yes" />
+   </attributes>
+   <note color="#000000" default-x="57" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <notations>
+     <slur color="#000000" type="stop" orientation="under" />
+    </notations>
+   </note>
+   <note color="#000000" default-x="120" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>жи</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 39 ==============-->
+  <measure number="39" width="122">
+   <note color="#000000" default-x="15" default-y="10">
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>вот</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="78" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>single</syllabic>
+     <text>на</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 40 ==============-->
+  <measure number="40" width="150">
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>Бла</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="94">
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <accidental>sharp</accidental>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>middle</syllabic>
+     <text>гост</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 41 ==============-->
+  <measure number="41" width="98">
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>384</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot />
+    <stem>up</stem>
+    <staff>1</staff>
+    <notations>
+     <slur color="#000000" type="start" orientation="under" />
+    </notations>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>та,</text>
+    </lyric>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>single</syllabic>
+     <text>та,</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 42 ==============-->
+  <measure number="42" width="98">
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>384</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot />
+    <stem>up</stem>
+    <staff>1</staff>
+    <notations>
+     <slur color="#000000" type="stop" orientation="under" />
+    </notations>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 43 ==============-->
+  <measure number="43" width="168">
+   <note color="#000000" default-x="17" default-y="-10">
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>в’но</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="78" default-y="-5">
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>middle</syllabic>
+     <text>ви</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="124">
+    <pitch>
+     <step>F</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <accidental>natural</accidental>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>я</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 44 ==============-->
+  <measure number="44" width="127">
+   <note color="#000000" default-x="15">
+    <pitch>
+     <step>F</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>све</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="82">
+    <pitch>
+     <step>F</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>тъл</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 45 ==============-->
+  <measure number="45" width="183">
+   <print new-system="yes">
+    <system-layout>
+     <system-margins>
+      <left-margin>25</left-margin>
+      <right-margin>0</right-margin>
+     </system-margins>
+     <system-distance>104</system-distance>
+    </system-layout>
+   </print>
+   <attributes>
+    <staff-details number="1" print-object="yes" />
+   </attributes>
+   <note color="#000000" default-x="57" default-y="-5">
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>single</syllabic>
+     <text>тоз</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="128">
+    <pitch>
+     <step>F</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>жи</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 46 ==============-->
+  <measure number="46" width="109">
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>384</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot />
+    <stem>up</stem>
+    <staff>1</staff>
+    <notations>
+     <slur color="#000000" type="start" orientation="under" />
+    </notations>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>вот,</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 47 ==============-->
+  <measure number="47" width="140">
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <notations>
+     <slur color="#000000" type="stop" orientation="under" />
+    </notations>
+   </note>
+   <note color="#000000" default-x="86" default-y="-5">
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>жи</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 48 ==============-->
+  <measure number="48" width="136">
+   <direction>
+    <direction-type>
+     <words default-x="21" default-y="15" justify="left" valign="middle" font-family="Times New Roman" font-style="italic" font-size="14.1179" font-weight="normal">rit.</words>
+    </direction-type>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <note color="#000000" default-x="15" default-y="5">
+    <pitch>
+     <step>G</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>вот</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="86">
+    <pitch>
+     <step>F</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>single</syllabic>
+     <text>на</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 49 ==============-->
+  <measure number="49" width="153">
+   <note color="#000000" default-x="15" default-y="-5">
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>begin</syllabic>
+     <text>Ра</text>
+    </lyric>
+   </note>
+   <note color="#000000" default-x="91" default-y="-10">
+    <pitch>
+     <step>D</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>middle</syllabic>
+     <text>дост</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 50 ==============-->
+  <measure number="50" width="109">
+   <note color="#000000" default-x="15" default-y="-15">
+    <pitch>
+     <step>C</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>384</duration>
+    <tie type="start" />
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot />
+    <stem>up</stem>
+    <staff>1</staff>
+    <notations>
+     <tied type="start" orientation="under" />
+    </notations>
+    <lyric default-y="-75" number="part1verse1" color="#000000">
+     <syllabic>end</syllabic>
+     <text>та.</text>
+    </lyric>
+   </note>
+  </measure>
+  <!--============== Part: P1, Measure: 51 ==============-->
+  <measure number="51" width="101">
+   <note color="#000000" default-x="15" default-y="-15">
+    <pitch>
+     <step>C</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>256</duration>
+    <tie type="stop" />
+    <instrument id="P1-I1" />
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>1</staff>
+    <notations>
+     <tied type="stop" orientation="under" />
+    </notations>
+   </note>
+   <barline>
+    <bar-style>light-heavy</bar-style>
+   </barline>
+  </measure>
+  <!--============== Part: P1, Measure: 52 ==============-->
+  <measure number="52" width="934">
+   <print new-page="yes">
+    <system-layout>
+     <system-margins>
+      <left-margin>25</left-margin>
+      <right-margin>0</right-margin>
+     </system-margins>
+     <top-system-distance>104</top-system-distance>
+    </system-layout>
+   </print>
+   <attributes>
+    <staff-details number="1" print-object="yes">
+     <staff-lines>0</staff-lines>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <words default-x="75" default-y="-1271" justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="12.7891" font-weight="normal">* Кивот (библ.) – старозаветен кораб. (бел.ред.)</words>
+    </direction-type>
+    <offset sound="no">13</offset>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <direction>
+    <direction-type>
+     <words default-x="263" default-y="80" justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">Зора се чудна зазорява,</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">зора на светъл нов живот;</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">с великолепие огрява</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">поспрелия се наш кивот*.</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">         Припев:</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">         В новия светъл тоз живот, (2)</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">         живот на Любовта;</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">         В новия светъл тоз живот, </words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">         живот на Благостта;</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">         В новия светъл тоз живот,</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">         живот на Радостта.</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">И птички въздъха изпълнят</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">с възторг и срадки песни в хор,</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">хармонията да допълнят</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">в големия небесен двор.</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">         Припев</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">Трепти зората лекокрила</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">и буди нашите души;</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">като любяща майка мила</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">подканва всекиго: “Стани!”</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">         Припев</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">Лъчи от Любовта ни вливат</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">в гърдите жива топлина,</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">със сладка вяра ни повдигат</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">в крепост и виделина.</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">         Припев</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">О, тез лъчи от Бога идат,</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">те пълнят нашите сърца</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">и шепнат сладко как Той вика:</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">“Елате, моите деца!”</words>
+     <words justify="left" valign="middle" font-family="Times New Roman" font-style="normal" font-size="13.9518" font-weight="normal">         Припев</words>
+    </direction-type>
+    <offset sound="no">95</offset>
+    <voice>1</voice>
+    <staff>1</staff>
+   </direction>
+   <note print-object="no" default-x="44">
+    <rest />
+    <duration>384</duration>
+    <instrument id="P1-I2" />
+    <voice>1</voice>
+    <type>whole</type>
+    <staff>1</staff>
+   </note>
+   <barline>
+    <bar-style>light-heavy</bar-style>
+   </barline>
+  </measure>
+ </part>
+</score-partwise>
