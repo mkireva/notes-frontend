@@ -10,81 +10,97 @@ import {
   Paper,
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { createTheme, styled, ThemeProvider } from "@mui/material/styles";
 
+const theme = createTheme();
+
+theme.typography.h6 = {
+  fontFamily: "Inter",
+};
+theme.typography.h3 = {
+  fontFamily: "Inter",
+  color: "#015223",
+};
 export const InfoBox = () => {
   return (
     <div>
-      <Box sx={{ flexGrow: 1 }} marginTop={3}>
-        <Grid container spacing={3}>
-          <Grid item xs></Grid>
-          <Grid item xs={8}>
-            <Accordion style={{ backgroundColor: "#c3e8d3" }}>
-              <AccordionSummary
-                expandIcon={<ExpandMoreIcon />}
-                aria-controls="panel1a-content"
-                id="panel1a-header"
-              >
-                <Typography>Information</Typography>
-              </AccordionSummary>
-              <AccordionDetails>
-                <Paper
-                  sx={{ p: 2, margin: "auto", flexGrow: 1 }}
-                  elevation={0}
-                  style={{ backgroundColor: "#c3e8d3" }}
+      <ThemeProvider theme={theme}>
+        <Box sx={{ flexGrow: 1 }} marginTop={3}>
+          <Grid container spacing={3}>
+            <Grid item xs></Grid>
+            <Grid item xs={8}>
+              <Accordion style={{ backgroundColor: "#c3e8d3" }}>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1a-content"
+                  id="panel1a-header"
                 >
-                  <Grid container spacing={2}>
-                    <Grid item xs={12} sm container>
-                      <Grid item xs container direction="column" spacing={2}>
-                        <Grid item xs>
-                          <Typography gutterBottom variant="h6" component="div">
-                            Title: Das Spiel der Quelle
+                  <Typography variant="h3">Information:</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Paper
+                    sx={{ p: 2, margin: "auto", flexGrow: 1 }}
+                    elevation={0}
+                    style={{ backgroundColor: "#c3e8d3" }}
+                  >
+                    <Grid container spacing={2}>
+                      <Grid item xs={12} sm container>
+                        <Grid item xs container direction="column" spacing={2}>
+                          <Grid item xs>
+                            <Typography
+                              gutterBottom
+                              variant="h6"
+                              component="div"
+                            >
+                              Title: Das Spiel der Quelle
+                            </Typography>
+                            <Typography
+                              gutterBottom
+                              variant="body2"
+                              component="div"
+                            >
+                              key: C major
+                            </Typography>
+                            <Typography variant="body2" gutterBottom>
+                              color: blue
+                            </Typography>
+                            <Typography variant="body2" gutterBottom>
+                              category: songs after 1944
+                            </Typography>
+                          </Grid>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant="subtitle1" component="div">
+                            author: Beinsa Duno
                           </Typography>
-                          <Typography
-                            gutterBottom
-                            variant="body2"
-                            component="div"
-                          >
-                            key: C major
+                          <Typography variant="subtitle1" component="div">
+                            text: Beinsa Duno
                           </Typography>
-                          <Typography variant="body2" gutterBottom>
-                            color: blue
-                          </Typography>
-                          <Typography variant="body2" gutterBottom>
-                            category: songs after 1944
+                          <Typography variant="subtitle1" component="div">
+                            year: 1943
                           </Typography>
                         </Grid>
                       </Grid>
-                      <Grid item>
-                        <Typography variant="subtitle1" component="div">
-                          author: Beinsa Duno
-                        </Typography>
-                        <Typography variant="subtitle1" component="div">
-                          text: Beinsa Duno
-                        </Typography>
-                        <Typography variant="subtitle1" component="div">
-                          year: 1943
-                        </Typography>
-                      </Grid>
                     </Grid>
-                  </Grid>
-                </Paper>
-                <Box marginTop={3}>
-                  <Typography>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Suspendisse malesuada lacus ex, sit amet blandit leo
-                    lobortis eget. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Suspendisse malesuada lacus ex, sit amet
-                    blandit leo lobortis eget. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit.
-                  </Typography>
-                </Box>
-              </AccordionDetails>
-            </Accordion>
+                  </Paper>
+                  <Box marginTop={3}>
+                    <Typography>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse malesuada lacus ex, sit amet blandit leo
+                      lobortis eget. Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Suspendisse malesuada lacus ex, sit amet
+                      blandit leo lobortis eget. Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit.
+                    </Typography>
+                  </Box>
+                </AccordionDetails>
+              </Accordion>
+            </Grid>
+            <Grid item xs></Grid>
           </Grid>
-          <Grid item xs></Grid>
-        </Grid>
-      </Box>
+        </Box>
+      </ThemeProvider>
     </div>
   );
 };

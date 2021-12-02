@@ -1,1 +1,2 @@
-declare module '*.musicxml';
+declare module "*.musicxml";
+declare module "*.xml";

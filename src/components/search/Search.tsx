@@ -26,7 +26,7 @@ export default function Search() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Box sx={{ flexGrow: 1 }} marginTop={7}>
+      <Box sx={{ flexGrow: 1 }} marginTop={2}>
         <Grid container spacing={3}>
           <Grid item xs></Grid>
           <Grid item xs={6}>
