@@ -12,9 +12,27 @@ import {
 import { makeStyles } from "@mui/styles";
 
 const useStyle = makeStyles(({ palette }: Theme) => ({
-  searchField: {
+  root: {
+    // input label when focused
+    "& label.Mui-focused": {
+      color: "#00883a",
+    },
+    // focused color for input with variant='standard'
+    "& .MuiInput-underline:after": {
+      borderBottomColor: "#00883a",
+    },
+    // focused color for input with variant='filled'
+    "& .MuiFilledInput-underline:after": {
+      borderBottomColor: "#00883a",
+    },
+    // focused color for input with variant='outlined'
+    "& .MuiOutlinedInput-root": {
+      "&.Mui-focused fieldset": {
+        borderColor: "#00883a",
+      },
+    },
     [`& fieldset`]: {
-      borderRadius: 50,
+      borderRadius: 20,
     },
   },
 }));
@@ -36,7 +54,7 @@ export default function Search() {
               }}
             >
               <TextField
-                className={classes.searchField}
+                className={classes.root}
                 fullWidth
                 label="Search"
                 id="fullWidth"
