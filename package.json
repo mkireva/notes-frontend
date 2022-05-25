@@ -6,6 +6,7 @@
   "dependencies": {
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
+    "@igli.kokici/st-open-api": "^1.4.15",
     "@milkscout/react": "^1.0.34",
     "@mui/icons-material": "^5.0.4",
     "@mui/material": "^5.0.4",
@@ -27,6 +28,7 @@
     "react-i18next": "^11.12.0",
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
+    "st-open-api": "^1.4.3",
     "typescript": "^4.4.4",
     "web-vitals": "^1.0.1"
   },
@@ -34,7 +36,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "generate": "npx st-open-api -s ./petstore-api.yaml -o ./petstore-api-client -t"
   },
   "browserslist": {
     "production": [
