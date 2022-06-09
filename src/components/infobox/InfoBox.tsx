@@ -24,7 +24,11 @@ theme.typography.h3 = {
 
 theme.typography.h4 = {
   fontFamily: "Inter",
-  color: "#015223",
+  color: "#043217",
+};
+theme.typography.body2 = {
+  fontFamily: "Inter",
+  color: "#043217",
 };
 export const InfoBox = () => {
   return (
@@ -40,7 +44,7 @@ export const InfoBox = () => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography variant="h4">Information:</Typography>
+                  <Typography variant="h3">Information:</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <Paper
@@ -54,35 +58,35 @@ export const InfoBox = () => {
                           <Grid item xs>
                             <Typography
                               gutterBottom
-                              variant="h6"
+                              variant="body2"
                               component="div"
                             >
-                              Title: Das Spiel der Quelle
+                              <strong>Title:</strong> Das Spiel der Quelle
                             </Typography>
                             <Typography
                               gutterBottom
                               variant="body2"
                               component="div"
                             >
-                              key: C major
+                              <strong>key:</strong> C major
                             </Typography>
                             <Typography variant="body2" gutterBottom>
-                              color: blue
+                              <strong>color</strong>: blue
                             </Typography>
                             <Typography variant="body2" gutterBottom>
-                              category: songs after 1944
+                              <strong>category:</strong> songs after 1944
                             </Typography>
                           </Grid>
                         </Grid>
                         <Grid item>
-                          <Typography variant="subtitle1" component="div">
-                            author: Beinsa Duno
+                          <Typography variant="body2" component="div">
+                            <strong>author</strong>: Beinsa Duno
                           </Typography>
-                          <Typography variant="subtitle1" component="div">
-                            text: Beinsa Duno
+                          <Typography variant="body2" component="div">
+                            <strong>text:</strong> Beinsa Duno
                           </Typography>
-                          <Typography variant="subtitle1" component="div">
-                            year: 1943
+                          <Typography variant="body2" component="div">
+                            <strong>year:</strong> 1943
                           </Typography>
                         </Grid>
                       </Grid>

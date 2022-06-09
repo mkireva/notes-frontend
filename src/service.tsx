@@ -4,7 +4,7 @@ import { createContext } from "react";
 const SERVICES = {
   api: {},
 };
- 
+
 export const Services = createContext(SERVICES);
 
 export const ServiceProvider = (props: any) => (
