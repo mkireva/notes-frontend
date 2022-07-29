@@ -19,8 +19,7 @@ const useStyle = makeStyles(({ palette }: Theme) => ({
     paddingRight: 5,
     paddingTop: 12,
     paddingBottom: 12,
-    backgroundColor: "#5b5b5b",
-    color: "#fff",
+    backgroundColor: palette.background.default,
     textAlign: "center",
   },
   copyRight: {
@@ -29,7 +28,7 @@ const useStyle = makeStyles(({ palette }: Theme) => ({
   button: {
     marginLeft: 3,
     marginRight: 3,
-    color: "#fff",
+    color: palette.background.default,
   },
   copyrightToolbar: {
     ...toolbarStyle,
@@ -41,7 +40,7 @@ const useStyle = makeStyles(({ palette }: Theme) => ({
     height: 20,
   },
   websiteLink: {
-    color: "#fff",
+    color: palette.secondary.main,
   },
 }));
 export const Footer = () => {

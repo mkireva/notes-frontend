@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
 
 body {
   margin: 0;
@@ -12,5 +12,12 @@ body {
 html,
 body {
   height: 100%;
-  font-family: "Inter";
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter" !important;
+} */

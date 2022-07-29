@@ -8,29 +8,23 @@ import {
   Typography,
   AccordionDetails,
   Paper,
+  Theme,
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { makeStyles, Styles } from "@mui/styles";
+import { ColorPalette } from "../../theme/ColorPalette";
+
+const useStyle = makeStyles(({ palette }: Theme) => ({
+  infoBackground: {
+    backgroundColor: ColorPalette.BACKGROUND_INFO,
+  },
+}));
 
 const theme = createTheme();
 
-theme.typography.h6 = {
-  fontFamily: "Inter",
-};
-theme.typography.h3 = {
-  fontFamily: "Inter",
-  color: "#015223",
-};
-
-theme.typography.h4 = {
-  fontFamily: "Inter",
-  color: "#043217",
-};
-theme.typography.body2 = {
-  fontFamily: "Inter",
-  color: "#043217",
-};
 export const InfoBox = () => {
+  const classes = useStyle();
   return (
     <div>
       <ThemeProvider theme={theme}>
@@ -38,19 +32,22 @@ export const InfoBox = () => {
           <Grid container spacing={1}>
             <Grid item xs></Grid>
             <Grid item xs={8}>
-              <Accordion style={{ backgroundColor: "#c3e8d3" }}>
+              <Accordion>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
+                  className={classes.infoBackground}
                 >
-                  <Typography variant="h3">Information:</Typography>
+                  <Typography variant="h6" color="">
+                    Information:
+                  </Typography>
                 </AccordionSummary>
-                <AccordionDetails>
+                <AccordionDetails className={classes.infoBackground}>
                   <Paper
                     sx={{ p: 2, margin: "auto", flexGrow: 1 }}
                     elevation={0}
-                    style={{ backgroundColor: "#c3e8d3" }}
+                    className={classes.infoBackground}
                   >
                     <Grid container spacing={1} marginTop={-4}>
                       <Grid item xs={12} sm container>
@@ -61,7 +58,7 @@ export const InfoBox = () => {
                               variant="body2"
                               component="div"
                             >
-                              <strong>Title:</strong> Das Spiel der Quelle
+                              <strong>Title:</strong> Vehadi
                             </Typography>
                             <Typography
                               gutterBottom
@@ -71,7 +68,7 @@ export const InfoBox = () => {
                               <strong>key:</strong> C major
                             </Typography>
                             <Typography variant="body2" gutterBottom>
-                              <strong>color</strong>: blue
+                              <strong>color</strong>: red
                             </Typography>
                             <Typography variant="body2" gutterBottom>
                               <strong>category:</strong> songs after 1944

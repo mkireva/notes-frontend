@@ -13,7 +13,7 @@ import { makeStyles } from "@mui/styles";
 
 const useStyle = makeStyles(({ palette }: Theme) => ({
   root: {
-    // input label when focused
+    //input label when focused
     "& label.Mui-focused": {
       color: "#00883a",
     },

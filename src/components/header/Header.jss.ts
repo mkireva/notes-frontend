@@ -3,7 +3,7 @@ import { makeStyles } from "@mui/styles";
 
 export const getHeaderClasses = makeStyles(({ spacing, palette }: Theme) => ({
   appBar: {
-    backgroundColor: "#fff",
+    backgroundColor: palette.secondary.main,
     border: 0,
   },
   root: {
@@ -17,8 +17,7 @@ export const getHeaderClasses = makeStyles(({ spacing, palette }: Theme) => ({
     paddingLeft: 0,
   },
   menuButton: {
-    // applying theme color palette directly (no useTheme hook)
-    color: "#00883a",
+    color: palette.primary.main,
   },
   logoMobile: {
     height: 56,

@@ -6,7 +6,10 @@ import { ColorPalette } from "./ColorPalette";
 export const themeOptions: ThemeOptions = {
   palette: {
     primary: { main: ColorPalette.PRIMARY },
-    background: { default: ColorPalette.BACKGROUND },
+    secondary: {
+      main: ColorPalette.SECONDARY,
+    },
+    background: { default: ColorPalette.BACKGROUND_GREY },
   },
   components: {
     MuiButton: {
@@ -26,5 +29,10 @@ export const themeOptions: ThemeOptions = {
 };
 
 export const globalStyles: Interpolation<Theme> = {
+  h2: {
+    fontFamily: "Inter",
+    color: ColorPalette.PRIMARY,
+  },
+
   a: { color: ColorPalette.PRIMARY, textDecoration: "none" },
 };

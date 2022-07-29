@@ -10,9 +10,8 @@ const Trans = getNSTrans("translation");
 
 const theme = createTheme();
 
-theme.typography.h3 = {
+theme.typography.h2 = {
   fontSize: "1.2rem",
-  color: "#095e2e",
   "@media (min-width:600px)": {
     fontSize: "1.8rem",
     fontFamily: "Inter",
@@ -26,7 +25,7 @@ theme.typography.h3 = {
 export const NotePage = () => (
   <Layout>
     <ThemeProvider theme={theme}>
-      <Typography variant="h3" fontWeight="bold" textAlign="center">
+      <Typography variant="h2" fontWeight="bold" textAlign="center">
         <Trans tOptions={{ page: "BeinsaNotes" }}>{"{{page}}"}</Trans>
       </Typography>
       <Search />
