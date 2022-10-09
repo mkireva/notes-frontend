@@ -22,6 +22,7 @@ const useStyle = makeStyles(({ palette }: Theme) => ({
 }));
 
 const theme = createTheme();
+theme.typography.h6 = { fontSize: "1.3rem" };
 
 export const InfoBox = () => {
   const classes = useStyle();
@@ -39,9 +40,7 @@ export const InfoBox = () => {
                   id="panel1a-header"
                   className={classes.infoBackground}
                 >
-                  <Typography variant="h6" color="">
-                    Information:
-                  </Typography>
+                  <Typography variant="h6">Information:</Typography>
                 </AccordionSummary>
                 <AccordionDetails className={classes.infoBackground}>
                   <Paper

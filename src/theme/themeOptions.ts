@@ -32,7 +32,15 @@ export const globalStyles: Interpolation<Theme> = {
   h2: {
     fontFamily: "Inter",
     color: ColorPalette.PRIMARY,
+    fontSize: "1.8rem",
+    "@media (min-width:600px)": {
+      fontSize: "2.2rem",
+    },
+  },
+  h6: {
+    fontFamily: "Inter",
+    color: ColorPalette.PRIMARY,
   },
 
-  a: { color: ColorPalette.PRIMARY, textDecoration: "none" },
+  a: { fontFamily: "Inter", textDecoration: "none" },
 };
